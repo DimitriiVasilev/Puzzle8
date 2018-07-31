@@ -137,7 +137,9 @@ def solve_puzzle(p):
         return 'this puzzle can not be solved'
 
 
-very_initial_state = [[1, 2, 3],
-                      [0, 4, 5],
-                      [7, 8, 6]]
-print(solve_puzzle(very_initial_state))
+if __name__ == '__main__':
+    very_initial_state = [[1, 2, 3, 4],
+                          [5, 0, 7, 8],
+                          [10, 6, 11, 12],
+                          [9, 13, 14, 15]]
+    print(solve_puzzle(very_initial_state))
